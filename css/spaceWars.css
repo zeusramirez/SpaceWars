@@ -1,0 +1,86 @@
+html{
+    height:100%;
+}
+body{
+    background-image:url(../images/outer-space.jpg);
+    background-color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+}
+#start{
+    
+}
+#sun{
+    width:17.5%;
+    visibility:visible;
+    
+}
+
+#mercury{
+    width:5.5%;
+    visibility:visible;
+    
+}
+
+#venus{
+    width:10.25%;
+    visibility:visible;
+}
+
+#earth{
+    width:10.25%;
+    visibility:visible;
+}
+
+#mars{
+    width:8.5%;
+    visibility:visible;
+}
+
+#jupiter{
+    width:16%;
+    visibility:visible;
+}
+#saturn{
+    width:17%;
+    visibility:visible;
+}
+
+#uranus{
+   width:8%;
+    visibility:visible;
+   
+}
+
+#neptune{
+    width:7%;
+    visibility:visible;
+}
+
+#planets{    
+    font-size: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align:justify;
+}
+
+#planets img{
+    visibility:visible;
+    overflow:hidden;
+    position:relative;
+    vertical-align:middle;
+    display:inline-block;
+    border:none;
+    background:none;
+}
+#message{
+    color:white;
+    font-size:100px;
+    font-family: Courier ;
+    text-align:center;
+    width:100%;
+
+}
+

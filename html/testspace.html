@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../css/spaceWars.css" type="text/css" />
+  <meta charset="utf-8">
+  <style>
+  </style>
+  <script>
+  $(function() {
+    $( ".sortable" ).sortable({
+      forcePlaceholderSize: true,
+        helper: function(event,element){
+            return $(element).clone().css({
+                width:$(element).width()
+            })
+        }
+    });
+    $( ".sortable" ).disableSelection();
+  });
+  </script>
+  <title>Space Wars</title>
+</head>
+<body>
+  <div class="sortable" id="planets">
+  <img src="../images/sun.png" class="ui-state-default" id="sun"></li>
+  <img src="../images/mercury.png" class="ui-state-default" id="mercury"></li>
+  <img src="../images/venus.png" class="ui-state-default" id="venus"></li>
+  <img src="../images/earth.png" class="ui-state-default" id="earth"></li>
+  <img src="../images/mars.png" class="ui-state-default" id="mars"></li>
+  <img src="../images/jupiter.png" class="ui-state-default" id="jupiter"></li>
+  <img src="../images/saturn.png" class="ui-state-default" id="saturn"></li>
+  <img src="../images/uranus.png" class="ui-state-default" id="uranus"></li>
+  <img src="../images/neptune.png" class="ui-state-default" id="neptune" ></li>
+</div>
+  <button id="Winner">Winner</button>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-image:url(../images/galaxy2.jpg);
+    background-color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: white;
+    text-align: center;
+    font-family: "Courier New";
+    
+}
+
+body p {
+    font-size: 50px;
+}
+body ul{
+    font-size:100px;
+}
